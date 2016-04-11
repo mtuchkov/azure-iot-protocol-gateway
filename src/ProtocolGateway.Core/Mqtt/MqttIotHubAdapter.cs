@@ -7,8 +7,6 @@ namespace Microsoft.Azure.Devices.ProtocolGateway.Mqtt
     using System.Collections.Generic;
     using System.Diagnostics.Contracts;
     using System.IO;
-    using System.Net;
-    using System.Net.Sockets;
     using System.Threading.Tasks;
     using DotNetty.Codecs.Mqtt.Packets;
     using DotNetty.Common;
