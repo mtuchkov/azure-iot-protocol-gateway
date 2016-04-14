@@ -75,6 +75,8 @@ namespace Microsoft.Azure.Devices.ProtocolGateway.Mqtt
                 this.maxSupportedQosToClient = QualityOfService.AtLeastOnce;
             }
 
+            SqlConnection 
+
             this.settings = settings;
             this.sessionStateManager = sessionStateManager;
             this.authProvider = authProvider;
