@@ -1,3 +1,7 @@
+#### 1.0.3 April 5
+- Fix for QoS 2 persistence provider. In case of delivery failure when client has already received the PUBREC packet the Protocol Gateway won't sedn you PUBLISH again. instead it will send the PUBREL.
+- Upgrade DotNetty to version 0.2.5
+
 #### 1.0.1 March 12
 - Azure Table QoS 2 persistence provider uses proper query API to retrieve only relevant row.
 - QoS 2 persistence provider API is modified to work with SequenceNumber instead of MessageId.

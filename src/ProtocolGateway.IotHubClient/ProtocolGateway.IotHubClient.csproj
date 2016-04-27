@@ -109,6 +109,7 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="ProtocolGateway.IotHubClient.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProtocolGateway.Core\ProtocolGateway.Core.csproj">
